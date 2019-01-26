@@ -1,21 +1,24 @@
 # Bad Movies
-A teaching assignment designed to cover the fundamentals of fullstack
 
-Learn the fundamentals of application structure and database integration by making a web app that renders horrible movies based on certain search criteria. The user can then opt to save a movie to their favorites and also delete items from their favorites that they don't like anymore. 
+A student-made teaching tool designed to cover the fundamentals of fullstack
 
-### Basic functionality (CRUD app minus update functionality): 
+Learn the fundamentals of application structure and database integration by making a web app that renders the most horrible movies as listed on 'themoviedb.org' based on certain search criteria, namely genre. The user should be able to save a movie to their 'favorites' list and delete movies from this list.
 
-[ ] User should be allowed to search for movies by genre
+### Basic functionality: 
 
-[ ] User should be given a list of official genres to choose from
+[ ] User should be able to search for the worst movies from any of the official genres listed on 'themoviedb.org'
 
-[ ] Movies should be sorted to show the movies with horrible ratings first (figure out how to modify the API endpoint to do so)
+[ ] User should be given this official list of genres to select from and search with, filtering by selected genre
 
-[ ] User should be able to click on a movie within the search results in order to save it to their favorites (mySQL database, you must make your own Schema)
+[ ] A search should find and display a limited list of movies sorted by rating in ascending order, showing the movies with the worst ratings first (figure out how to modify the API endpoint to do so)
 
-[ ] If a user is viewing their favorites they should be able to delete a movie from their favorites by clicking on it
+[ ] User should be able to click on any movie in order to save it to their favorites list (mySQL database, you must make your own Schema)
 
-### The API for the application:
+[ ] If a user has navigated to their favorites page, clicking on a movie should delete it from their favorites (unlike on the main page, where clicking on a movie adds it to their favorites list)
+
+[ ] Store your data in MySQL db (or MongoDB if/when you feel comfortable)
+
+### The API for the application, where you will query for worst movies and all official genres:
 
 https://developers.themoviedb.org/3/getting-started/introduction
 
